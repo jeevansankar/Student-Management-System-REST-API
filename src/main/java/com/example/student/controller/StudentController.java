@@ -43,7 +43,7 @@ public class StudentController {
         studentService.deleteStudent(id);
         return "Student deleted successfully";
     }
-
+//all annotation 
     // GET ALL
     @GetMapping
     public List<StudentEnty> getAllStudents() {
